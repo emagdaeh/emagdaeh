@@ -8,11 +8,11 @@ const Adam = () => {
   const [mission, setMission] = useState('Use tech to improve biomechanical analsysis of patient movement faults');
   
   const technicalSkills = () => {
-    let languages: ['JavaScript', 'HTML', 'CSS', 'JQuery',];
-    let frontEnd: ['React', 'React-Native', 'React Navigation', 'CSS Modules', 'Webpack', 'Babel', 'Axios',];
-    let backEnd: ['Node', 'Express'];
-    let devOps: ['AWS', 'Docker', 'Nginx'];
-    let databases: ['MongoDB', 'MySQL', 'PostgreSQL'];
+    const languages: ['JavaScript', 'HTML', 'CSS', 'JQuery',];
+    const frontEnd: ['React', 'React-Native', 'React Navigation', 'CSS Modules', 'Webpack', 'Babel', 'Axios',];
+    const backEnd: ['Node', 'Express'];
+    const devOps: ['AWS', 'Docker', 'Nginx'];
+    const databases: ['MongoDB', 'MySQL', 'PostgreSQL'];
     
     return languages.concat(frontEnd, backEnd, devOps, databases);
   }
@@ -20,7 +20,7 @@ const Adam = () => {
   const nonTechnicalSkills = () => {
     const publicSpeaking = true;
     const businessManagerialExperience = true;
-    let programManagerExperience = 1;
+    const programManagerExperience = 1;
     
     let assetsToAnEmployer = [];
     
@@ -34,7 +34,7 @@ const Adam = () => {
   }
   
   const acquireSkills = () => {
-    let workingOnLearning = 'TypeScript, GraphQL, SwiftUI, Flutter'; 
+    const workingOnLearning = 'TypeScript, GraphQL, SwiftUI, Flutter'; 
   
     if (!known) {
       return 'Currently planned languages to learn: ' + workingOnLearning;
