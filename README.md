@@ -1,10 +1,11 @@
 ### Pleasure to see you here, I'm Adam Whitman
-
+```javascript
 const Adam = () => {
   <br />
   const [career, setCareer] = useState('In transition');
   <br />
 };
+```
 
 <!--
 **emagdaeh/emagdaeh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
