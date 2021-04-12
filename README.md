@@ -18,7 +18,7 @@ const Adam = () => {
   }
   
   const nonTechnicalSkills = () => {
-    const publicSpeaking = true;
+    const clientNegotiation = true;
     const businessManagerialExperience = true;
     const programManagerExperience = 1;
     
