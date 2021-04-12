@@ -1,7 +1,7 @@
 ### Pleasure to meet you, I'm Adam Whitman
 ```javascript
 import React from 'react';
-import styles from './styleComponents';
+import styles from './styleComponents/Introduction.module.css';
 
 const Adam = () => {
   const [career, setCareer] = useState('In transition');
