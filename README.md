@@ -59,7 +59,7 @@ const Adam = () => {
         <h2>{acquireSkills()}</h2>
       </div>
       <div className={styles.nonTechnical}>
-        <h3>{nonTechnicalSkills}</h3>
+        <h3>{nonTechnicalSkills()}</h3>
       </div>
       <div className={styles.funFacts}>
         <h5>{funFacts()}</h5>
