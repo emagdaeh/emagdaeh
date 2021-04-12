@@ -7,12 +7,14 @@ const Adam = () => {
   const [career, setCareer] = useState('In transition');
   const [mission, setMission] = useState('Use tech to improve biomechanical analsysis of patient movement faults');
   
-  const code = () => {
+  const technicalSkills = () => {
     let languages: ['JavaScript', 'HTML', 'CSS', 'JQuery',];
     let frontEnd: ['React', 'React-Native', 'React Navigation', 'CSS Modules', 'Webpack', 'Babel', 'Axios',];
-    let backEnd: ['Node', 'Express', 'PostgreSQL', 'MySQL', 'NGINX',];
+    let backEnd: ['Node', 'Express'];
+    let devOps: ['AWS', 'Docker', 'Nginx'];
+    let databases: ['MongoDB', 'MySQL', 'PostgreSQL'];
     
-    return languages.concat(frontEnd, backEnd);
+    return languages.concat(frontEnd, backEnd, devOps, databases);
   }
   
   const nonTechnicalSkills = () => {
@@ -53,7 +55,7 @@ const Adam = () => {
         <h1>Adam Whitman, DPT<h1>
       </div>
       <div className={styles.technical}>
-        <h2>{code()}</h2>
+        <h2>{technicalSkills()}</h2>
       </div>
       <div className={}>
         <h2>{acquireSkills()}</h2>
