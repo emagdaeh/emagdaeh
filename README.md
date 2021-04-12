@@ -5,7 +5,7 @@ import styles from './styleComponents';
 
 const Adam = () => {
   const [career, setCareer] = useState('In transition');
-  const [mission, setMission] = useState('Improve biomechanical analysis of patients' movements to find the origin of the problem, not just the location of the pain');
+  const [mission, setMission] = useState('Use tech to improve biomechanical analsysis of patient movement faults');
   
   const code = () => {
     let languages: ['JavaScript', 'HTML', 'CSS', 'JQuery',];
@@ -40,9 +40,11 @@ const Adam = () => {
   }
   
   const funFacts = () => {
-    const true = ['Provides concierge physical therapy for NFL athletes', 'Gamer nerd, especially tabletop RPGs', 'Aboslutely loves public speaking and teaching'];
+    const fact1 = 'Provides concierge physical therapy for NFL athletes';
+    const fact2 = 'Gamer nerd, especially tabletop RPGs';
+    const fact3 = 'Aboslutely loves public speaking and teaching';
     
-    return true;
+    return fact1 + ', ' + fact2 + ', and ' + fact3;
   }
   
   return (
