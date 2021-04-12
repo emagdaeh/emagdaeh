@@ -32,11 +32,17 @@ const Adam = () => {
   }
   
   const acquireSkills = () => {
-    let workingOnLearning = 'TypeScript', 
+    let workingOnLearning = 'TypeScript, GraphQL, SwiftUI, Flutter'; 
   
     if (!known) {
       return 'Currently planned languages to learn: ' + workingOnLearning;
     }
+  }
+  
+  const funFacts = () => {
+    const true = ['Provides concierge physical therapy for NFL athletes', 'Gamer nerd, especially tabletop RPGs', 'Aboslutely loves public speaking and teaching'];
+    
+    return true;
   }
   
   return (
