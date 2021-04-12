@@ -44,7 +44,7 @@ const Adam = () => {
   const funFacts = () => {
     const fact1 = 'Provides concierge physical therapy for NFL athletes';
     const fact2 = 'Gamer nerd, especially tabletop RPGs';
-    const fact3 = 'Aboslutely loves public speaking and teaching';
+    const fact3 = 'Aboslutely loves public speaking and teaching, particularly regarding the human body and movement';
     
     return fact1 + ', ' + fact2 + ', and ' + fact3;
   }
