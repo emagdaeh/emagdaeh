@@ -2,6 +2,13 @@
 ```javascript
 const Adam = () => {
   const [career, setCareer] = useState('In transition');
+  const [mission, setMission] = useState('Improve biomechanical analysis');
+  
+  const useCode = () => {
+    let languages: ['JavaScript', 'HTML', 'CSS', 'JQuery',];
+    let frontEnd: ['React', 'React-Native', 'React Navigation', 'CSS Modules', 'Webpack', 'Babel', 'Axios',];
+    let backEnd: ['Node', 'Express', 'PostgreSQL', 'MySQL', 'NGINX',];
+  }
 };
 ```
 
