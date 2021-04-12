@@ -1,4 +1,4 @@
-### Pleasure to see you here, I'm Adam Whitman
+### Pleasure to meet you, I'm Adam Whitman
 ```javascript
 import React from 'react';
 import styles from './styleComponents';
