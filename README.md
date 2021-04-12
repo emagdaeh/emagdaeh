@@ -1,9 +1,7 @@
 ### Pleasure to see you here, I'm Adam Whitman
 ```javascript
 const Adam = () => {
-  <br />
   const [career, setCareer] = useState('In transition');
-  <br />
 };
 ```
 
