@@ -1,10 +1,13 @@
 ### Pleasure to see you here, I'm Adam Whitman
 ```javascript
+import React from 'react';
+import styles from './styleComponents';
+
 const Adam = () => {
   const [career, setCareer] = useState('In transition');
   const [mission, setMission] = useState('Improve biomechanical analysis of patients' movements to find the origin of the problem, not just the location of the pain');
   
-  const useCode = () => {
+  const code = () => {
     let languages: ['JavaScript', 'HTML', 'CSS', 'JQuery',];
     let frontEnd: ['React', 'React-Native', 'React Navigation', 'CSS Modules', 'Webpack', 'Babel', 'Axios',];
     let backEnd: ['Node', 'Express', 'PostgreSQL', 'MySQL', 'NGINX',];
@@ -27,6 +30,34 @@ const Adam = () => {
     
     return assetsToAnEmployer;
   }
+  
+  const acquireSkills = () => {
+    let workingOnLearning = 'TypeScript', 
+  
+    if (!known) {
+      return 'Currently planned languages to learn: ' + workingOnLearning;
+    }
+  }
+  
+  return (
+    <div>
+      <div className={styles.nameAndTitle}>
+        <h1>Adam Whitman, DPT<h1>
+      </div>
+      <div className={styles.technical}>
+        <h2>{code()}</h2>
+      </div>
+      <div className={}>
+        <h2>{acquireSkills()}</h2>
+      </div>
+      <div className={styles.nonTechnical}>
+        <h3>{nonTechnicalSkills}</h3>
+      </div>
+      <div className={styles.funFacts}>
+        <h5>{funFacts()}</h5>
+      </div>
+    <div>
+  );
 };
 ```
 
