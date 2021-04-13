@@ -57,7 +57,7 @@ const Adam = () => {
       <div className={styles.technical}>
         <h2>{technicalSkills()}</h2>
       </div>
-      <div className={}>
+      <div className={styles.workingOnIt}>
         <h2>{acquireSkills()}</h2>
       </div>
       <div className={styles.nonTechnical}>
