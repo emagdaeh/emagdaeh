@@ -10,9 +10,9 @@ const Adam = () => {
   const technicalSkills = () => {
     const languages: ['JavaScript', 'HTML', 'CSS', 'JQuery',];
     const frontEnd: ['React', 'React-Native', 'React Navigation', 'CSS Modules', 'Webpack', 'Babel', 'Axios',];
-    const backEnd: ['Node', 'Express'];
-    const devOps: ['AWS', 'Docker', 'Nginx'];
-    const databases: ['MongoDB', 'MySQL', 'PostgreSQL'];
+    const backEnd: ['Node', 'Express',];
+    const devOps: ['AWS', 'Docker', 'Nginx',];
+    const databases: ['MongoDB', 'MySQL', 'PostgreSQL',];
     
     return languages.concat(frontEnd, backEnd, devOps, databases);
   }
