@@ -34,7 +34,7 @@ const Adam = () => {
   }
   
   const acquireSkills = () => {
-    const workingOnLearning = 'TypeScript, GraphQL, SwiftUI, Flutter'; 
+    const workingOnLearning = 'Angular, Vue, TypeScript, GraphQL, SwiftUI, Flutter'; 
   
     if (!known) {
       return 'Currently planned languages to learn: ' + workingOnLearning;
