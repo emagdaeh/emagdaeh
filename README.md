@@ -20,7 +20,7 @@ const Adam = () => {
   const nonTechnicalSkills = () => {
     const clientNegotiation = true;
     const organizationalLeadershipExperience = true;
-    let productManagerExperience = 1;
+    const productManagerExperience = 1;
     
     let assetsToAnEmployer = [];
     
